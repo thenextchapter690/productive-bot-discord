@@ -1,40 +1,36 @@
-
 # 🚀 Discord Productivity Bot
 
-A modern all-in-one Discord bot for study, productivity, and tech communities.
+A modern all-in-one Discord bot built for study, productivity, and tech communities.
+
+Track study sessions, earn XP, manage goals, review flashcards, use developer tools, and stay productive—all from an intuitive button-based interface.
 
 ## ✨ Features
 
-- 🎯 Pomodoro & Focus Sessions
+- 🎯 Focus & Pomodoro Sessions
 - ✅ Goals & To-do Lists
-- 📊 XP, Levels & Streaks
-- 🏆 Leaderboards
-- 📚 Flashcards
-- 💻 Developer Tools
-- 🤖 AI Features
-- 🌿 Study Utilities
-- ⚡ One-click Server Setup
+- 📊 XP, Levels & Study Statistics
+- 🏆 Leaderboards & Streaks
+- 📚 Flashcards with Spaced Repetition
+- 💻 Developer Tools (Code Runner, GitHub, Docs & More)
+- 🤖 Optional AI Features
+- 🌿 Study Rooms, Reminders & Utilities
+- ⚡ One-Click Server Setup
 
 ---
 
-## 📸 Preview
+## 🚀 Quick Start
 
-> Add 2–4 screenshots or a GIF here.
-
----
-
-## 🚀 Installation
-
-```bash id="5dtp7n"
+```bash
 git clone https://github.com/thenextchapter690/productive-bot-discord.git
 cd productive-bot-discord
+
 pip install -r requirements.txt
 python bot.py
 ```
 
 Create a `.env` file with your Discord bot token, then run:
 
-```text id="wrwttv"
+```text
 /wizard
 ```
 
@@ -44,14 +40,20 @@ to automatically configure your server.
 
 ## 🛠 Tech Stack
 
-Python • discord.py • SQLite • Pillow • Railway
+- Python
+- discord.py
+- SQLite
+- Pillow
+- Railway
 
 ---
 
 ## 🤝 Contributing
 
-Pull requests and suggestions are welcome.
+Contributions, issues, and feature requests are always welcome.
+
+---
 
 ## ⭐ Support
 
-If you like this project, consider giving it a star!
+If you found this project useful, consider giving it a ⭐ on GitHub!
