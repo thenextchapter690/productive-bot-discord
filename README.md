@@ -1,66 +1,57 @@
 
-# Discord Productivity Bot
+# 🚀 Discord Productivity Bot
 
-A modern Discord productivity bot built for study, coding, and tech communities.
-
-Instead of remembering dozens of commands, members can access almost everything through a clean button-based menu.
+A modern all-in-one Discord bot for study, productivity, and tech communities.
 
 ## ✨ Features
 
-- 🎯 Focus & Pomodoro sessions
-- ✅ Daily goals and task manager
-- 📊 XP, levels, streaks, and statistics
+- 🎯 Pomodoro & Focus Sessions
+- ✅ Goals & To-do Lists
+- 📊 XP, Levels & Streaks
 - 🏆 Leaderboards
-- 🎁 Daily rewards
-- 💻 Developer tools (code runner, GitHub, docs, AI tools)
-- 📚 Flashcards with spaced repetition
-- 🌿 Study rooms, reminders, polls & ambient sounds
-- 🤖 One-click server setup
+- 📚 Flashcards
+- 💻 Developer Tools
+- 🤖 AI Features
+- 🌿 Study Utilities
+- ⚡ One-click Server Setup
 
-## 🚀 Quick Start
+---
 
-1. Create a Discord Application.
-2. Invite the bot to your server.
-3. Add your bot token to `.env`.
-4. Install dependencies.
+## 📸 Preview
 
-```bash
+> Add 2–4 screenshots or a GIF here.
+
+---
+
+## 🚀 Installation
+
+```bash id="5dtp7n"
+git clone https://github.com/thenextchapter690/productive-bot-discord.git
+cd productive-bot-discord
 pip install -r requirements.txt
 python bot.py
 ```
 
-Run `/wizard` once and the bot will automatically set up the server for you.
+Create a `.env` file with your Discord bot token, then run:
+
+```text id="wrwttv"
+/wizard
+```
+
+to automatically configure your server.
+
+---
 
 ## 🛠 Tech Stack
 
-- Python 3.12+
-- discord.py
-- SQLite
-- Pillow
-- OpenAI-compatible APIs (optional)
-- Railway (recommended deployment)
+Python • discord.py • SQLite • Pillow • Railway
 
-## 📁 Project Structure
-
-```
-bot.py
-config.py
-db.py
-cardgen.py
-cogs/
-utils.py
-```
-
-## 📦 Deployment
-
-The bot is ready for Railway deployment.
-
-Simply connect your GitHub repository, add the required environment variables, attach a persistent volume, and deploy.
+---
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome.
+Pull requests and suggestions are welcome.
 
-## 📄 License
+## ⭐ Support
 
-MIT License.
+If you like this project, consider giving it a star!
